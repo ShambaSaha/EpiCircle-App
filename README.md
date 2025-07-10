@@ -1,4 +1,4 @@
-♻️ EpiCircle Customer & Partner App
+**♻️ EpiCircle Customer & Partner App**
 
 A full-stack, cross-platform mobile solution developed using React Native (Expo) to simplify the process of scheduling, managing, and processing scrap material pickups. The app is divided into two modules:
 
