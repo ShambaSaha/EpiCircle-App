@@ -1,0 +1,65 @@
+import type { Pickup } from './types';
+
+export const mockPickups: Pickup[] = [
+  {
+    id: '1',
+    customer: { name: 'Alice Johnson', phone: '123-456-7890' },
+    address: '123 Maple St, Springfield, IL',
+    googleMapsLink: 'https://maps.google.com',
+    scheduledDate: '2024-08-15',
+    scheduledTimeSlot: '10:00 AM - 12:00 PM',
+    status: 'SCHEDULED',
+    pickupCode: '1234',
+    items: [],
+  },
+  {
+    id: '2',
+    customer: { name: 'Bob Williams', phone: '234-567-8901' },
+    address: '456 Oak Ave, Shelbyville, IL',
+    scheduledDate: '2024-08-16',
+    scheduledTimeSlot: '02:00 PM - 04:00 PM',
+    status: 'ACCEPTED',
+    pickupCode: '5678',
+    items: [],
+  },
+  {
+    id: '3',
+    customer: { name: 'Charlie Brown', phone: '345-678-9012' },
+    address: '789 Pine Ln, Capital City, IL',
+    googleMapsLink: 'https://maps.google.com',
+    scheduledDate: '2024-08-17',
+    scheduledTimeSlot: '09:00 AM - 11:00 AM',
+    status: 'IN_PROCESS',
+    pickupCode: '9101',
+    items: [
+      { id: 'item-1', name: 'Scrap Iron', quantity: '10 kg', price: 25 },
+      { id: 'item-2', name: 'Copper Wire', quantity: '2 kg', price: 15 },
+    ],
+  },
+  {
+    id: '4',
+    customer: { name: 'Diana Prince', phone: '456-789-0123' },
+    address: '101 Cherry Rd, Metropolis, IL',
+    scheduledDate: '2024-08-18',
+    scheduledTimeSlot: '01:00 PM - 03:00 PM',
+    status: 'PENDING_APPROVAL',
+    pickupCode: '1121',
+    items: [
+      { id: 'item-3', name: 'Aluminum Cans', quantity: '5 kg', price: 7.5 },
+    ],
+  },
+  {
+    id: '5',
+    customer: { name: 'Ethan Hunt', phone: '567-890-1234' },
+    address: '212 Birch Blvd, Gotham, IL',
+    googleMapsLink: 'https://maps.google.com',
+    scheduledDate: '2024-08-10',
+    scheduledTimeSlot: '11:00 AM - 01:00 PM',
+    status: 'COMPLETED',
+    pickupCode: '3141',
+    items: [
+      { id: 'item-4', name: 'Old Newspapers', quantity: '20 kg', price: 10 },
+      { id: 'item-5', name: 'Plastic Bottles', quantity: '15 kg', price: 12 },
+    ],
+  },
+];
