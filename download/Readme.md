@@ -1,4 +1,4 @@
-**🚚 Partner App – Scrap Pickup Handler**
+**🚚 Partner App – EpiCircle Partner App**
 
 A React Native mobile application designed for pickup partners to manage assigned scrap pickup requests efficiently. From login to final item approval, this app ensures a seamless workflow for field partners involved in collection.
 
