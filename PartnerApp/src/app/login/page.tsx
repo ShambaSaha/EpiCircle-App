@@ -107,7 +107,7 @@ export default function LoginPage() {
             <Recycle className="h-8 w-8" />
           </div>
           <CardTitle className="text-2xl font-bold">
-            Scrap Pickup Partner
+            EpiCircle Partner App
           </CardTitle>
           <CardDescription>
             {step === 'otp'
